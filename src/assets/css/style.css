@@ -1,0 +1,47 @@
+:root {
+--red: rgb(212, 104, 104);
+--white: rgb(252, 246, 246);
+--blue: rgb(10, 159, 218);
+--grey: rgb(228, 222, 222);
+--black: rgb(65, 62, 62);
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Jumbotron/Navbar */
+
+.jumbotron {
+    background-color: var(--red);
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--white);
+}
+
+/* Cards */
+
+.card {
+    margin: 2vh 3vw;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.list-group-flush {
+    background-color: var(--grey);
+    padding: 2vh 2vw;
+}
+
+.list-group-item {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--black);
+}
